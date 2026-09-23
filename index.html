@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070711">
+<meta name="description" content="Abdullah Feroz — builder, developer, electronics and local AI enthusiast.">
+<title>Abdullah Feroz — Builder / Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div><div class="cursor-glow"></div><div class="progress"></div>
+<header class="nav">
+<a class="brand" href="#home"><span>AF</span><b>Abdullah<span>.</span></b></a>
+<nav><a href="#about">About</a><a href="#projects">Builds</a><a href="#skills">Skills</a><a href="#journey">Journey</a></nav>
+<div class="nav-actions"><button class="icon-btn" id="themeBtn">☼</button><a class="github-btn" href="https://github.com/Abdullahferozonline" target="_blank">GitHub ↗</a></div>
+</header>
+
+<main id="home">
+<section class="hero">
+<div class="hero-copy reveal">
+<div class="status"><i></i> Available for building</div>
+<p class="eyebrow">HELLO, INTERNET 👋</p>
+<h1>I build ideas<br><em>that move.</em></h1>
+<p class="hero-text">Android apps, Python tools, websites, electronics, automation and local AI experiments — built from curiosity and a lot of terminal commands.</p>
+<div class="hero-buttons"><a class="primary" href="#projects">Explore my builds <span>↓</span></a><a class="secondary" href="https://github.com/Abdullahferozonline" target="_blank">View GitHub ↗</a></div>
+<div class="mini-stats"><div><strong>10+</strong><span>Builds</span></div><div><strong>∞</strong><span>Experiments</span></div><div><strong>1</strong><span>Curious mind</span></div></div>
+</div>
+<div class="hero-visual reveal">
+<div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+<div class="terminal-card tilt"><div class="terminal-top"><span></span><span></span><span></span><label>abdullah@termux ~</label></div>
+<div class="terminal-body"><p><b>$</b> whoami</p><h3>Abdullah Feroz</h3><p><b>$</b> cat mission.txt</p><h4>turn ideas into<br><span>working things.</span></h4><p><b>$</b> ./build --again</p><div class="typing"><span>learning...</span><i></i></div></div></div>
+<div class="floating-chip chip-one">⚡ Python</div><div class="floating-chip chip-two">◈ Android</div><div class="floating-chip chip-three">⌁ Local AI</div>
+</div>
+</section>
+
+<section class="marquee"><div>BUILD <span>✦</span> BREAK <span>✦</span> LEARN <span>✦</span> REBUILD <span>✦</span> BUILD <span>✦</span> BREAK <span>✦</span> LEARN <span>✦</span> REBUILD <span>✦</span></div></section>
+
+<section id="about" class="section">
+<div class="section-label reveal">01 — ABOUT</div>
+<div class="about-grid"><div class="reveal"><p class="big-copy">I’m not just learning technology. <span>I’m learning by making it.</span></p></div>
+<div class="about-text reveal"><p>I enjoy taking an idea from a rough thought to something I can actually run, test and improve.</p><p>My projects jump across Android, Python, web development, electronics, automation, Linux/Termux and local AI. The common thread is simple: <b>make it real.</b></p><div class="quote">“Every error message is another thing I know more about than yesterday.”</div></div></div>
+</section>
+
+<section id="projects" class="section">
+<div class="section-head reveal"><div><div class="section-label">02 — SELECTED BUILDS</div><h2>Things I’ve <em>made.</em></h2></div><p>Small experiments, serious learning.</p></div>
+<div class="filterbar reveal"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="ai">AI</button><button class="filter" data-filter="app">Apps</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="hardware">Hardware</button></div>
+<div class="project-grid">
+<article class="project featured tilt reveal" data-cat="ai app"><div class="project-icon">🧠</div><span class="project-tag">AI / PYTHON</span><h3>FirozAI</h3><p>A local tool-using AI agent with memory, skills, workspace tools and a local Qwen model through llama.cpp.</p><div class="stack"><span>Python</span><span>Qwen</span><span>llama.cpp</span></div><b class="arrow">↗</b></article>
+<article class="project tilt reveal" data-cat="web app"><div class="project-icon">▣</div><span class="project-tag">WEB / FLASK</span><h3>SecureQR</h3><p>A premium UPI QR experience with timed sessions, animated reveal/lock states and mobile-first UI.</p><div class="stack"><span>Flask</span><span>Python</span><span>UPI</span></div><b class="arrow">↗</b></article>
+<article class="project tilt reveal" data-cat="app"><div class="project-icon">▤</div><span class="project-tag">ANDROID</span><h3>StockPilot Pro</h3><p>Inventory management concept for a real shop workflow with Firebase-backed data.</p><div class="stack"><span>Android</span><span>Firebase</span></div><b class="arrow">↗</b></article>
+<article class="project tilt reveal" data-cat="app"><div class="project-icon">◉</div><span class="project-tag">KOTLIN / COMPOSE</span><h3>GhostChat</h3><p>Messaging app experiment focused on Compose UI and camera integration.</p><div class="stack"><span>Kotlin</span><span>Compose</span></div><b class="arrow">↗</b></article>
+<article class="project tilt reveal" data-cat="app"><div class="project-icon">⌖</div><span class="project-tag">MAPS</span><h3>SkyRouteMaps</h3><p>An Android maps experiment exploring location and navigation experiences.</p><div class="stack"><span>Android</span><span>Maps</span></div><b class="arrow">↗</b></article>
+<article class="project tilt reveal" data-cat="hardware"><div class="project-icon">⌁</div><span class="project-tag">ARDUINO</span><h3>RO TDS Monitor</h3><p>Water monitoring project using an Arduino, TDS sensor and display.</p><div class="stack"><span>Arduino</span><span>Electronics</span></div><b class="arrow">↗</b></article>
+<article class="project tilt reveal" data-cat="ai web"><div class="project-icon">▶</div><span class="project-tag">AUTOMATION</span><h3>ShortMaker</h3><p>Termux/Python pipeline for turning source videos into vertical short-form content with local tools.</p><div class="stack"><span>Python</span><span>FFmpeg</span><span>Termux</span></div><b class="arrow">↗</b></article>
+<article class="project tilt reveal" data-cat="app"><div class="project-icon">◆</div><span class="project-tag">GAMES</span><h3>AdventureQuest / Echo Loom</h3><p>Game experiments exploring Java/Kotlin development, interaction and visual feedback.</p><div class="stack"><span>Java</span><span>Kotlin</span></div><b class="arrow">↗</b></article>
+</div></section>
+
+<section id="skills" class="section skills"><div class="section-label reveal">03 — TOOLBOX</div>
+<div class="skills-grid"><div class="skill-copy reveal"><h2>Tools are just<br><em>extensions of ideas.</em></h2><p>I like understanding enough of the stack to move from concept → prototype → working build without waiting for the perfect setup.</p></div>
+<div class="skill-cloud reveal"><span class="large">Python</span><span>Kotlin</span><span>Firebase</span><span class="large">Android</span><span>JavaScript</span><span>Flutter</span><span class="large">Termux</span><span>Arduino</span><span>Flask</span><span>Git</span><span>Next.js</span><span>Linux</span><span class="large">Local AI</span><span>HTML/CSS</span><span>IPFS</span><span>Java</span></div></div></section>
+
+<section id="journey" class="section"><div class="section-label reveal">04 — JOURNEY</div>
+<div class="timeline">
+<div class="time-item reveal"><b>01</b><div><small>START</small><h3>Electronics first</h3><p>Hands-on work with components, wiring, repair and practical electronics.</p></div></div>
+<div class="time-item reveal"><b>02</b><div><small>EXPLORE</small><h3>Linux + Termux</h3><p>Started turning an Android phone into a development and experimentation environment.</p></div></div>
+<div class="time-item reveal"><b>03</b><div><small>BUILD</small><h3>Apps + Web</h3><p>Moved into Android, Flutter, Firebase, Python, Flask and modern web interfaces.</p></div></div>
+<div class="time-item reveal"><b>04</b><div><small>NOW</small><h3>AI + automation</h3><p>Exploring local AI agents, automation, better UX and projects that combine hardware with software.</p></div></div>
+</div></section>
+
+<section class="cta reveal"><div class="section-label">05 — NEXT</div><h2>Got an idea?<br><em>Let’s build it.</em></h2><p>The next project is probably going to start with a terminal, a rough sketch and a “what if?”</p><a class="primary" href="https://github.com/Abdullahferozonline" target="_blank">Open GitHub ↗</a></section>
+</main>
+<footer><span>© 2026 Abdullah Feroz</span><span>Built with curiosity ✦</span><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body></html>
